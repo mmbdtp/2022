@@ -1,5 +1,5 @@
 ---
-title: Getting Started with GitHub
+title: Introduction to Linux
 ---
 
 ## Getting Started with GitHub
