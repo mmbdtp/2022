@@ -1,0 +1,6 @@
+Linux and the Command Line
+Creating and handling sequences
+From sequence to consequence
+Comparative genomics
+Metagenomics
+Functional analysis
