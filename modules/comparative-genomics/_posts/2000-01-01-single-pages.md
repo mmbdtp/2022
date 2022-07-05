@@ -1,5 +1,5 @@
 ---
-title: Add Single Pages
+title: Alignments
 ---
 
 ## Add Single Pages
