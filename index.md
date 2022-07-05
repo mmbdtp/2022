@@ -10,12 +10,12 @@ A problem-based learning curriculum for the **Microbes, Microbiomes and Bioinfor
 
 6 weeks programme, with the week start date reported:
 
-* 7 November 2022, **Linux and the Command Line**, Mark Pallen and Andrea Telatin
-* 14 November 2022, **Creating and handling sequences**, Dave Baker and Andrew Page
-* 21 November 2022, **From sequence to consequence**, Nabil Ali-Khan and Mark Pallen
-* 28 November 2022, **Comparative genomics**, Gemma Langridge and Andrew Page
-* 5 December 2022, **Metagenomics**, Chris Quince and Mark Pallen
-* 12 December 2022, **Functional analysis**, Mark Webber and Cynthia Whitchurch
+* 07 Nov 2022, **Linux and the Command Line**, Mark Pallen and Andrea Telatin
+* 14 Nov 2022, **Creating and handling sequences**, Dave Baker and Andrew Page
+* 21 Nov 2022, **From sequence to consequence**, Nabil Ali-Khan and Mark Pallen
+* 28 Nov 2022, **Comparative genomics**, Gemma Langridge and Andrew Page
+* 05 Dec 2022, **Metagenomics**, Chris Quince and Mark Pallen
+* 12 Dec 2022, **Functional analysis**, Mark Webber and Cynthia Whitchurch
 
 #### Week schedule
 
