@@ -6,12 +6,28 @@ published: true
 A problem-based learning curriculum for the **Microbes, Microbiomes and Bioinformatics** doctoral training program
 <br> 
 
-#### Content
+#### Programme
 
-* [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
-* [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
-* [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
-* [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/)  by P2PU
+6 weeks programme, with the week start date reported:
 
-<br> 
+* 7 November 2022, **Linux and the Command Line**, Mark Pallen and Andrea Telatin
+* 14 November 2022, **Creating and handling sequences**, Dave Baker and Andrew Page
+* 21 November 2022, **From sequence to consequence**, Nabil Ali-Khan and Mark Pallen
+* 28 November 2022, **Comparative genomics**, Gemma Langridge and Andrew Page
+* 5 December 2022, **Metagenomics**, Chris Quince and Mark Pallen
+* 12 December 2022, **Functional analysis**, Mark Webber and Cynthia Whitchurch
+
+#### Week schedule
+
+Monday, Tuesday, Thursday, Friday (Wednesdays are free)
+
+* 9.00 - 9.15: Overview
+* 9.15 - 10.00: Daily lecture
+* 10.00 - 10.30: Intructions for the day
+* 10.30 - 15.30: *Problem-based learning experience*
+* 15.30 - 16.00: Progress review with the tutors
+* 16.00 - 17.00: Second talk
+
+
+
  
