@@ -1,5 +1,7 @@
 # MMB DTP
 
+[![pages-build-deployment](https://github.com/mmbdtp/mmbdtp.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mmbdtp/mmbdtp.github.io/actions/workflows/pages/pages-build-deployment)
+
 ### An open-source project for creating online courses, built by P2PU
 Course-in-a-Box is a free tool for building and publishing online courses — no prior coding experience required. 
 
