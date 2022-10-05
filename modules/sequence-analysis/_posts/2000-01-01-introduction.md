@@ -2,4 +2,13 @@
 title: From sequence to consequence
 ---
 
-## Introduction
+# From sequence to consequence (Ali-Khan, Pallen)
+
+
+## Week 3 Beginning 21 November 2022
+
+* Sequence alignment
+* Homology searches 
+* Pathogen biology
+* Microbial genome annotation
+* Microbial genome assembly

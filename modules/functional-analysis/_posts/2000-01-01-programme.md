@@ -1,0 +1,17 @@
+---
+title: Programme
+---
+
+# Functional analysis (Webber, Whitchurch)
+
+## Week 6 Beginning 12 December 2022 
+
+* Metabolic reconstruction 
+* Transcriptomics
+* Proteomics
+* Tradis
+* Genomics for molecular biology
+* Structural Biology 
+* Metabolomics
+* Image analysis
+ 
