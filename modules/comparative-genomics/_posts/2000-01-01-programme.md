@@ -2,7 +2,9 @@
 title: Programme
 ---
 
-# Comparative genomics (Page, Langridge)
+# Comparative genomics 
+
+Gemma Langridge and Andrew Page
 
 ## Week 4 Beginning 28 November 2022
 

@@ -2,7 +2,9 @@
 title: Programme
 ---
 
-# Creating and handling sequences (Baker)
+# Creating and handling sequences
+
+Dave Baker
 
 ## Week 2 Beginning 14 November 2022
 

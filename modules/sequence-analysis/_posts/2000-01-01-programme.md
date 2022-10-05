@@ -2,8 +2,9 @@
 title: From sequence to consequence
 ---
 
-# From sequence to consequence (Ali-Khan, Pallen)
+# From sequence to consequence 
 
+Nabil-Fareed Ali-Khan and Mark Pallen
 
 ## Week 3 Beginning 21 November 2022
 

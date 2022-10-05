@@ -2,7 +2,9 @@
 title: Programme
 ---
 
-# Metagenomics (Quince, Pallen)
+# Metagenomics
+
+Chris Quince
 
 ## Week 5 Beginning 5 December 2022 
 
