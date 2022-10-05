@@ -2,7 +2,9 @@
 title: Programme
 ---
 
-# Linux and the Command Line (Pallen, Telatin)
+# Linux and the Command Line
+
+Mark Pallen and Andrea Telatin
 
 ## Week 1: Beginning 7 November 2022
 
