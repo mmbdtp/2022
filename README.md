@@ -2,7 +2,18 @@
 
 [![pages-build-deployment](https://github.com/mmbdtp/mmbdtp.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mmbdtp/mmbdtp.github.io/actions/workflows/pages/pages-build-deployment)
 
-Website for the MMBdoctoral training program
+A problem-based learning curriculum for the **Microbes, Microbiomes and Bioinformatics** doctoral training program
+
+### Programme
+
+6 weeks programme, with the week start date reported:
+
+* 07 Nov 2022, **Linux and the Command Line**, Mark Pallen and Andrea Telatin
+* 14 Nov 2022, **Creating and handling sequences**, Dave Baker 
+* 21 Nov 2022, **From sequence to consequence**, Nabil Alikhan and Mark Pallen
+* 28 Nov 2022, **Comparative genomics**, Gemma Langridge and Andrew Page
+* 05 Dec 2022, **Metagenomics**, Chris Quince
+* 12 Dec 2022, **Functional analysis**, Mark Webber and Cynthia Whitchurch
 
 
 # Deploy locally with docker 
