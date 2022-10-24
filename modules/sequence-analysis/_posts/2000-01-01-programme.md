@@ -21,8 +21,9 @@ Topics include:
 
 ## Overview
 
-- Instructors will have the original genbank/fasta
+- Instructors will have the original genome (GenBank/FASTA) of a novel bacterial pathogen. 
 - Students will be given simulated short and long reads.
+- Students will assemble the genome, assess its quality and characterise the pathogen.
 
  ##### Instructions for students
 
