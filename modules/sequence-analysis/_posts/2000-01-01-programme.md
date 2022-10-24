@@ -17,7 +17,7 @@ Topics include:
 * Microbial genome assembly
 
 
-##### Aim: Characterise a novel bacterial pathogen through genome sequencing and bioinformatics analysis
+> Aim: Characterise a novel bacterial pathogen through genome sequencing and bioinformatics analysis
 
 ## Overview
 
