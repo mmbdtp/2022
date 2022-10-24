@@ -22,6 +22,6 @@ It was originally developed at the Wellcome Trust Sanger Institute to bundle a F
 
 There are three files: 
 
-* Short read R1 - novel-pathogen_R1.fastq.gz
-* Short read R2 - novel-pathogen_R2.fastq.gz 
-* Long reads - novel-pathogen-long-reads.fastq.gz 
+* Short read R1 - [novel-pathogen_R1.fastq.gz](https://zenodo.org/record/7245398/files/novel-pathogen_R1.fastq.gz)
+* Short read R2 - [novel-pathogen_R2.fastq.gz](https://zenodo.org/record/7245398/files/novel-pathogen_R2.fastq.gz) 
+* Long reads - [novel-pathogen-long-reads.fastq.gz](https://zenodo.org/record/7245398/files/novel-pathogen-long-reads.fastq.gz)
