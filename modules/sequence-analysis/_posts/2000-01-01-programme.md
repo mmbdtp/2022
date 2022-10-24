@@ -4,7 +4,7 @@ title: Programme
 
 # From sequence to consequence 
 
-Nabil-Fareed Ali-Khan and Mark Pallen
+Nabil-Fareed Alikhan and Mark Pallen
 
 ## Week 3 Beginning 21 November 2022
 

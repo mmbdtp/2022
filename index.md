@@ -12,7 +12,7 @@ A problem-based learning curriculum for the **Microbes, Microbiomes and Bioinfor
 
 * 07 Nov 2022, **[Linux and the Command Line]({{ site.url }}{{ site.baseurl }}/modules/linux/programme/)**, Mark Pallen and Andrea Telatin
 * 14 Nov 2022, **[Creating and handling sequences]({{ site.url }}{{ site.baseurl }}/modules/sequencing/programme/)**, Dave Baker 
-* 21 Nov 2022, **[From sequence to consequence]({{ site.url }}{{ site.baseurl }}/modules/sequence-analysis/programme/)**, Nabil Ali-Khan and Mark Pallen
+* 21 Nov 2022, **[From sequence to consequence]({{ site.url }}{{ site.baseurl }}/modules/sequence-analysis/programme/)**, Nabil Alikhan and Mark Pallen
 * 28 Nov 2022, **[Comparative genomics]({{ site.url }}{{ site.baseurl }}/modules/comparative-genomics/programme/)**, Gemma Langridge and Andrew Page
 * 05 Dec 2022, **[Metagenomics]({{ site.url }}{{ site.baseurl }}/modules/metagenomics/programme/)**, Chris Quince
 * 12 Dec 2022, **[Functional analysis]({{ site.url }}{{ site.baseurl }}/modules/functional-analysis/programme/)**, Mark Webber and Cynthia Whitchurch
