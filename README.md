@@ -16,7 +16,7 @@ A problem-based learning curriculum for the **Microbes, Microbiomes and Bioinfor
 * 12 Dec 2022, **Functional analysis**, Mark Webber and Cynthia Whitchurch
 
 
-# Deploy locally with docker 
+### Deploy locally with docker 
 
 ``` 
 export JEKYLL_VERSION=3.5
