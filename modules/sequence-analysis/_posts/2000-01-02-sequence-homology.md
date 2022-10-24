@@ -2,7 +2,9 @@
 title: Sequence homology and alignment
 ---
 
-# Monday 21 November: Sequence homology and alignment
+# Sequence homology and alignment
+
+### Monday 21 November
 
 ##### 09.00. Overview of the day/week 
 

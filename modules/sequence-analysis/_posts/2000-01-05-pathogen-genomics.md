@@ -2,7 +2,9 @@
 title: Pathogen genomics
 ---
 
-# Friday  25 November: Pathogen genomics
+# Pathogen genomics
+
+### Friday  25 November
 
 ##### 09.00. Overview of the day
 

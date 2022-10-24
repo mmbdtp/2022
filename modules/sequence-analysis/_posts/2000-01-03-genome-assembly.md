@@ -2,7 +2,9 @@
 title: Genome assembly
 ---
 
-# Tuesday 22 November: Genome assembly
+# Genome assembly
+
+###  Tuesday 22 November
 
 ##### 09.00. Overview of the day
 

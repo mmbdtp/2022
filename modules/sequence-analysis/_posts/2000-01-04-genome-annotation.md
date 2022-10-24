@@ -1,7 +1,9 @@
 ---
 title: Genome annotation
 ---
-# Thursday  24 November: Genome annotation
+# Genome annotation
+
+### Thursday  24 November
 
 ##### 09.00. Overview of the day
 
