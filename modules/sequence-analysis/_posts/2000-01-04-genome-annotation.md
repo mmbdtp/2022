@@ -9,6 +9,8 @@ title: Genome annotation
 
 ##### 09.15. Talk (Pallen):  *Pathogen Biology*
 
+- [Link to Powerpoint slides](/seq-analysis/Week_3_Talk_Pathogen_Biology.pptx)
+
 ##### 10.00. Instructions for PBL on CDS calling and annotation (Alikhan, Pallen)
 
 - Exercise: Using a genome browser to look at a pathogenicity island and a plasmid from contigs of our simulated data
