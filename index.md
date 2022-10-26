@@ -29,5 +29,10 @@ Monday, Tuesday, Thursday, Friday (Wednesdays are free)
 * 16.00 - 17.00: Second talk
 
 
+---
+
+[![pages-build-deployment](https://github.com/mmbdtp/mmbdtp.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mmbdtp/mmbdtp.github.io/actions/workflows/pages/pages-build-deployment)
+
+This website is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). The source code is available on [GitHub](https://github.com/mmbdtp/mmbdtp.github.io)
 
  
