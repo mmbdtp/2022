@@ -8,6 +8,12 @@ title: Programme
 
 ##### Week 3: 21 – 26 November 2022
 
+Rooms:
+* 21/11/22 – UG55 A
+* 22/11/22 – UG55 A        
+* 24/11/22 – UG55 A
+* 25/11/22 – UG44 A
+  
 Topics include:
 
 * Sequence alignment
