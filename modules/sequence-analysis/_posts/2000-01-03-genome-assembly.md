@@ -14,8 +14,8 @@ title: Genome assembly
 
 ##### 10.00. Instructions for problem-based learning on genome assembly (Alikhan)
 
-- Exercise: [hybrid and short-read-only assembly of simulated reads](/seq-analysis/genome-assembly)
-- Exercise: [hybrid and short-read-only assembly of simulated reads (command-line)](/seq-analysis/genome-assembly-cli)
+- Exercise: [hybrid and short-read-only assembly of sequenced reads](/seq-analysis/genome-assembly)
+- Exercise: [hybrid and short-read-only assembly of sequenced reads (command-line)](/seq-analysis/genome-assembly-cli)
 - Additional Exercise: Make simple assembly graph of reads (paper example)
 
 ##### 11.30. Progress review on problem-based-learning (Alikhan)
