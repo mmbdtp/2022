@@ -21,10 +21,12 @@ A problem-based learning curriculum for the **Microbes, Microbiomes and Bioinfor
 ``` 
 export JEKYLL_VERSION=3.5
 docker run --rm   --volume="$PWD:/srv/jekyll"  --publish [::1]:4000:4000 jekyll/jekyll:$JEKYLL_VERSION  jekyll build
-docker run  --name mmbdtp --volume="$PWD:/srv/jekyll" -p 3000:4000 -it jekyll/jekyll:$JEKYLL_VERSION jekyll serve --watch --drafts
+docker run -p 80:4000 --name mmbdtp --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:$JEKYLL_VERSION jekyll serve --watch --drafts
 ```
 
-The development build is available on http://localhost:3000 
+
+
+The development build is available on http://localhost:4000 
 
 Use `docker start` to start the service, once the container is built.
 
