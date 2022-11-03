@@ -26,7 +26,7 @@ docker run -p 80:4000 --name mmbdtp --volume="$PWD:/srv/jekyll" -it jekyll/jekyl
 
 
 
-The development build is available on http://localhost:4000 
+The development build is available on http://localhost:80
 
 Use `docker start` to start the service, once the container is built.
 

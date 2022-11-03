@@ -1,0 +1,87 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="hybrid-and-short-read-only-assembly-of-simulated-reads">Hybrid and short-read-only assembly of simulated reads</h1>
+<p>In this exercise, you will take the reads of our novel pathogen and assembly the genome using the short reads alone and a hybrid assembly using both long and short reads. This is to illustrate how differences in sequencing data (namely, read length) will affect the final outcome. We will use these assemblies in subsequent analyses.  </p>
+<p>If you complete this exercise (using Galaxy), please attempt the <a href="/seq-analysis/genome-assembly-cli">same process on the command line</a>.</p>
+<h2 id="what-is-a-genome-assembler-doing">What is a genome assembler doing?</h2>
+<p>Genome assemblers assume the following about sequenced reads:</p>
+<ul>
+<li>Reads are resolved into nucleotide bases (ATGC &amp; ambiguous base calls)</li>
+<li>Reads are randomly distributed across the target DNA, and</li>
+<li>Reads are represent an oversampling of the target DNA, such that individual reads repeatedly overlap</li>
+<li>Genome assemblers calculate overlaps between reads and (usually) represent as a graph/network. Then “walk” the graph to determine the original sequence.</li>
+</ul>
+<p>Genome assemblers calculate overlaps between reads and (usually) represent as a graph/network. Then “walk” the graph to determine the original sequence.</p>
+<p>See <a href="https://tinyurl.com/torstaseembler">Torsten Seemann’s slides on de novo genome assembly</a></p>
+<p><img alt="Assembly overview" src="{{site.baseurl}}/seq-analysis/assembler.jpg" /></p>
+<blockquote>
+<p>Whole genome shotgun sequencing: Genome is sheared into small approximately equal sized fragments which are subsequently small enough to be sequenced in both directions followed by cloning. The cloned sequences (reads) are then fed to an assembler (illustrated in Figure 2). b To overcome some of the complexity of normal shotgun sequencing of large sequences such as genomes a hierarchical approach can be taken. The genome is broken into a series of large equal segments of known order which are then subject to shotgun sequencing. The assembly process here is simpler and less computationally expensive. From <a href="http://dx.doi.org/10.1007/s12575-009-9004-1">Commins, Toft and Fares 2009</a></p>
+</blockquote>
+<h2 id="what-is-r1-and-r2">What is R1 and R2?</h2>
+<p>Just as a reminder, many sequencing library preparation kits include an option to generate so-called “paired-end reads“.  Intact genomic DNA is sheared into several million short DNA fragment.  Individual reads can be paired together to create paired-end reads, which offers some benefits for downstream bioinformatics data analysis algorithms.  The structure of a paired-end read is shown here.</p>
+<p><img alt="read overview" src="{{site.baseurl}}/seq-analysis/r1r2.jpg" /></p>
+<p>“Read 1”, often called the “forward read”, extends from the “Read 1 Adapter” in the 5′ – 3′ direction towards “Read 2” along the forward DNA strand.</p>
+<p>“Read 2”, often called the “reverse read”, extends from the “Read 2 Adapter” in the 5′ – 3′ direction towards “Read 1” along the reverse DNA strand.</p>
+<h2 id="how-genome-assemblers-fail-perfection">How genome assemblers fail perfection</h2>
+<p>In theory, Genome assembly software with perfect reads of good length will  reconstruct the genome verbatim </p>
+<p>However, Sequencing platform have errors (and cause errors downstream): </p>
+<ul>
+<li>Struggle with GC rich and/or AT rich DNA.</li>
+<li>Have lower read quality towards the end of reads (5', 3' or both ends)</li>
+<li>Have difficulty reading homopolymers (e.g. AAAAA or TTTTTTT) accurately</li>
+<li><strong>Have read lengths that does not span repeated sequences in the genome</strong></li>
+</ul>
+<p><img alt="Assembly graph" src="{{site.baseurl}}/seq-analysis/assembly_graph.png" /></p>
+<ul>
+<li>Repeats: A segment of DNA that occurs more than once in the genome</li>
+<li>Read length must span the repeat</li>
+</ul>
+<h5 id="outcomes-of-your-final-contigs">Outcomes of your final contigs</h5>
+<p><img alt="Repeats" src="{{site.baseurl}}/seq-analysis/repeats.jpg" /></p>
+<blockquote>
+<p>Mate-pair signatures for collapse style mis-assemblies. (a) Two copy tandem repeat R shown with properly sized and oriented mate-pairs. (b) Collapsed tandem repeat shown with compressed and mis-oriented mate-pairs. (c) Two copy repeat R, bounding unique sequence B, shown with properly sized and oriented mate-pairs. (d) Collapsed repeat shown with compressed and mis-linked mate-pairs. From <a href="https://doi.org/10.1186%2Fgb-2008-9-3-r55">https://doi.org/10.1186%2Fgb-2008-9-3-r55</a></p>
+</blockquote>
+<h5 id="how-to-span-repeats">How to span repeats:</h5>
+<ul>
+<li>Long reads (ONT, Pacbio)</li>
+<li>Long reads (Sanger)</li>
+<li>Optical mapping</li>
+<li>Hi-C</li>
+<li>Or just don’t! </li>
+</ul>
+<h2 id="using-galaxy">Using Galaxy</h2>
+<p>We will be using Galaxy for this exercise, <a href="https://galaxy.quadram.ac.uk/">https://galaxy.quadram.ac.uk/</a>, Please download the sequenced reads, as explained, and upload them into Galaxy. The upload button is the top left (see below)</p>
+<p><img alt="Repeats" src="{{site.baseurl}}/seq-analysis/UPLOAD.jpg" /></p>
+<h2 id="short-read-assembly-with-shovill">Short read assembly with Shovill</h2>
+<p>About Shovill: The <a href="https://github.com/ablab/spades">SPAdes genome assembler</a> has become the de facto standard de novo genome assembler for Illumina whole genome sequencing data of bacteria and other small microbes. </p>
+<p>SPAdes was a major improvement over previous assemblers like Velvet, but some of its components can be slow and it traditionally did not handle overlapping paired-end reads well. </p>
+<p>Shovill is a pipeline which uses SPAdes at its core, but alters the steps before and after the primary assembly step to get similar results in less time. Shovill also supports other assemblers like SKESA, Velvet and Megahit, so you can take advantage of the pre- and post-processing the Shovill provides with those too. </p>
+<p>Warning: Shovill is for isolate data only, primarily small haploid organisms. It will NOT work on metagenomes or larger genomes. Please use Megahit directly instead. See more details at <a href="https://github.com/tseemann/shovill">https://github.com/tseemann/shovill</a></p>
+<p>Use the search in the top left to look for Shovill and then fill in the inputs and launch the job. Make sure that <code>_R1</code> and <code>_R2</code> as specified correctly! </p>
+<p><img alt="Shovill dialog" src="{{site.baseurl}}/seq-analysis/shovill.jpg" /></p>
+<p>Review the output in the right hand history pane. </p>
+<p>The important output files:</p>
+<ul>
+<li>contigs.fa: The final assembly you should use</li>
+<li>contigs.gfa: Assembly graph (spades)</li>
+<li>shovill.log: Full log file for bug reporting</li>
+</ul>
+<h2 id="hybrid-assembly-with-unicyler">Hybrid assembly with Unicyler</h2>
+<p>There are different programs for hybrid assembly, with slightly different results. So, why <a href="https://github.com/rrwick/Unicycler">Unicycler</a>?</p>
+<ul>
+<li>All in one package - Good hybrid assembly</li>
+<li>Can use short read only and bridge gaps with some guesswork </li>
+<li>A lot of options on how aggressive you want it to join contigs</li>
+<li>Easy install</li>
+<li>Checks for circularisation </li>
+</ul>
+<p>Use the search in the top left to look for Unicyler and then fill in the inputs and launch the job. Make sure that <code>_R1</code>, <code>_R2</code>, <code>long reads</code> are specified correctly! </p>
+<p><img alt="Unicyler dialog" src="{{site.baseurl}}/seq-analysis/uni.jpg" /></p>
+<p>Review the output in the right hand history pane. </p>
+<p>At this stage, you may want to ask about what's different about a hybrid assembly?</p>
+<p>The important output files:</p>
+<ul>
+<li>assembly.fasta: The final assembly you should use</li>
+<li>assembly.gfa: Assembly graph </li>
+<li>unicycler.log: Full log file for bug reporting</li>
+</ul>
+</body></html>

@@ -1,12 +1,12 @@
 ---
 layout: page
 ---
+
 # Hybrid and short-read-only assembly of simulated reads
 Let’s talk about the impact of read length (long read vs short read) on genome assembly. 
 In doing so I will also show you how to run the software and assess the output.
 
-
-## Short read assembly
+### Short read assembly with Shovill
 Is Shovill installed? Please see the [Installing software](seq-analysis/installing) section.
 
 We can run Shovill with:
@@ -48,3 +48,43 @@ The important output files:
 * contigs.fa: The final assembly you should use
 * contigs.gfa: Assembly graph (spades)
 * shovill.log: Full log file for bug reporting
+
+## Hybrid assembly with Unicyler 
+
+Is Unicyler installed? Please see the [Installing software](seq-analysis/installing) section. 
+
+We can run Unicyler with:
+```
+unicycler -1 novel-pathogen_R1.fastq.gz \
+  -2 novel-pathogen_R2.fastq.gz \
+  -l novel-pathogen-long-reads.fastq.gz  \
+  -o hybrid_assembly
+```
+
+
+The contents of the `hybrid_assembly` folder: 
+
+```
+001_spades_graph_k027.gfa
+001_spades_graph_k053.gfa
+001_spades_graph_k071.gfa
+001_spades_graph_k087.gfa
+001_spades_graph_k099.gfa
+001_spades_graph_k111.gfa
+001_spades_graph_k119.gfa
+001_spades_graph_k127.gfa
+002_depth_filter.gfa
+003_overlaps_removed.gfa
+004_long_read_assembly.gfa
+005_bridges_applied.gfa
+006_final_clean.gfa
+assembly.fasta
+assembly.gfa
+unicycler.log
+```
+
+The important output files:
+
+* assembly.fasta: The final assembly you should use
+* assembly.gfa: Assembly graph 
+* unicycler.log: Full log file for bug reporting
