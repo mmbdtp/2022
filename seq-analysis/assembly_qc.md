@@ -11,6 +11,12 @@ If you have a problem with generating an assembly with Shovill. Here are some re
 * [shovill.corrections](/seq-analysis/shovill.corrections)
 * [shovill.log](/seq-analysis/shovill.log)
 
+If you have a problem with generating an assembly with Unicycler. Here are some results I prepared earlier. 
+
+* [long_assembly.fasta](/seq-analysis/long_assembly.fasta)
+* [long_assembly.gfa](/seq-analysis/long_assembly.gfa)
+* [unicycler.log](/seq-analysis/unicycler.log)
+
 ## Exercise: Assessing genome assembly quality 
 Many tools are available that assess sequence quality through read alignment, k-mer counting, gene finding, and other methods. 
 Your exercise now is to compare and contrast the  hybrid and short-read-only assemblies we prepared earlier  using methods like QUAST, webBlast a contig, Kraken, or looking at assembly graph with Bandage.
@@ -23,7 +29,7 @@ Your exercise now is to compare and contrast the  hybrid and short-read-only ass
 
 ##### Completeness
 
-* Compare to reference genome (How to find a reference genome? Start with [web BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) )
+* Compare to reference genome (How to find a reference genome? Start with [web BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi))
 * Assume a genome should have single copy essential genes
 * [MLST](https://github.com/tseemann/mlst) intact?
 * [BUSCO](https://busco.ezlab.org/) panel
@@ -38,7 +44,8 @@ Your exercise now is to compare and contrast the  hybrid and short-read-only ass
 * False SNPs, InDels
 * Compare to reference genome 
 * Map original reads back to assembled contigs
-* Structural rearrangement tools - Socru
+* Structural rearrangement tools - [Socru](https://github.com/quadram-institute-bioscience/socru)
+* Try looking at the graph in [Bandage](https://rrwick.github.io/Bandage/)
 
 ##### Contamination 
 

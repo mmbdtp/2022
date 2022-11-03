@@ -4,21 +4,21 @@ layout: page
 
 # Downloading simulated data 
 
-*Reads are available at [https://zenodo.org/record/7245398](https://zenodo.org/record/7245398)*
+*Reads are available at [https://zenodo.org/record/7277960](https://zenodo.org/record/7277960)*
 
 You can directly download them with wget or similar. 
 
 ```
-wget https://zenodo.org/record/7245398/files/novel-pathogen-long-reads.fastq.gz
-wget https://zenodo.org/record/7245398/files/novel-pathogen_R1.fastq.gz
-wget https://zenodo.org/record/7245398/files/novel-pathogen_R2.fastq.gz
+wget https://zenodo.org/record/7277960/files/novel-pathogen-long-reads.fastq.gz
+wget https://zenodo.org/record/7277960/files/novel-pathogen_R1.fastq.gz
+wget https://zenodo.org/record/7277960/files/novel-pathogen_R2.fastq.gz
 ```
 
 The files are compressed (.gz) FASTQ files. There are three files: 
 
-* Short read R1 - [novel-pathogen_R1.fastq.gz](https://zenodo.org/record/7245398/files/novel-pathogen_R1.fastq.gz)
-* Short read R2 - [novel-pathogen_R2.fastq.gz](https://zenodo.org/record/7245398/files/novel-pathogen_R2.fastq.gz) 
-* Long reads - [novel-pathogen-long-reads.fastq.gz](https://zenodo.org/record/7245398/files/novel-pathogen-long-reads.fastq.gz)
+* Short read R1 - [novel-pathogen_R1.fastq.gz](https://zenodo.org/record/7277960/files/novel-pathogen_R1.fastq.gz)
+* Short read R2 - [novel-pathogen_R2.fastq.gz](https://zenodo.org/record/7277960/files/novel-pathogen_R2.fastq.gz) 
+* Long reads - [novel-pathogen-long-reads.fastq.gz](https://zenodo.org/record/7277960/files/novel-pathogen-long-reads.fastq.gz)
 
 
 ### What is FASTQ
