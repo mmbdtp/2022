@@ -126,3 +126,9 @@ The important output files:
 * assembly.fasta: The final assembly you should use
 * assembly.gfa: Assembly graph 
 * unicycler.log: Full log file for bug reporting
+
+If you had a problem with generating an assembly with Unicycler. Here are some results I prepared earlier. 
+
+* [long_assembly.fasta](/seq-analysis/long_assembly.fasta)
+* [long_assembly.gfa](/seq-analysis/long_assembly.gfa)
+* [unicycler.log](/seq-analysis/unicycler.log)
