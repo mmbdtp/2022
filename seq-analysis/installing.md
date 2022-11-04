@@ -20,7 +20,7 @@ Andrea has an extended guide here: [https://telatin.github.io/microbiome-bioinfo
 
 
 ## Installing software via conda (shovill)
-This an example of how to install shovill in it's own environment, which we will need later. 
+This an example of how to install `shovill` in it's own environment, which we will need later. 
 
 ```
 conda create -n shovill shovill 
@@ -90,12 +90,12 @@ mamba install prokka
 
 A quick aside, "how should I organise my projects?" in the long term. 
 
-* Use conda for package management (https://docs.conda.io/en/latest/)
-* Jupyter notebooks for exploring data and plotting figures (https://jupyter.org/)
+* Use `conda` for package management (https://docs.conda.io/en/latest/)
+* `Jupyter` notebooks for exploring data and plotting figures (https://jupyter.org/)
 
 For Processing large datasets
 
-* Use workflow languages (nextflow)
+* Use workflow languages (`nextflow`)
 * [Bactopia](https://bactopia.github.io/) is a good all-included workflow to start
 
 
