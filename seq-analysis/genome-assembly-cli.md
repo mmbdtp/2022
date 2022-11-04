@@ -2,9 +2,11 @@
 layout: page
 ---
 
-# Hybrid and short-read-only assembly of simulated reads
+# Hybrid and short-read-only assembly of sequenced reads
 Let’s look at the impact of read length (long read vs short read) on genome assembly. 
 In doing so I will also show you how to run the software and assess the output.
+
+If you are unsure about the command line, please review [Crash Course Computer Science episode 22](https://www.youtube.com/watch?v=4RPtJ9UyHS0&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=23). The [episode on operating systems](https://www.youtube.com/watch?v=26QPDBe-NB8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=19) will also help you understand `Unix` a little better. 
 
 ### Short read assembly with Shovill
 Is Shovill installed? Please see the [Installing software](seq-analysis/installing) section.
