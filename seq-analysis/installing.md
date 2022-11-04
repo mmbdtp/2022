@@ -100,7 +100,7 @@ For Processing large datasets
 
 
 ### Some guidance on getting Jupyter notebooks up and running
-This is more for future reference, and is not covered in this course. 
+*This is for future reference, and is not covered in this course.* 
 
 Installing and controlling R and jupyter notebooks through conda is a much easier than installing it natively. I give a full explanation at the end as to why I do this way, but here's the method to start with.
 
