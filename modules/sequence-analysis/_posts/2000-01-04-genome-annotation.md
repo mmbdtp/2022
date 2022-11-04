@@ -13,15 +13,14 @@ title: Genome annotation
 
 ##### 10.00. Instructions for PBL on CDS calling and annotation (Alikhan, Pallen)
 
-- Exercise: Using a genome browser to look at a pathogenicity island and a plasmid from contigs of our simulated data
-- Exercise: CDS prediction for a pathogenicity island and a plasmid from contigs of our simulated data
-- Exercise: Manually annotate a pathogenicity island and a plasmid using web based homology searches
+- Exercise: [Using a genome browser to look at our assembled contigs](/seq-analysis/using_genome_browser)
+- Exercise: [CDS prediction for our assembled contigs](/seq-analysis/cds_contigs)
+- Exercise: [Manually annotate regions of our assembled contigs using web based homology searches](/seq-analysis/annotate)
 
 ##### 11.30. Progress review on problem-based-learning (Alikhan, Pallen
 
 ##### 13.00. Instructions for problem-based learning on genome annotation (Alikhan)
 
-- Exercise: [Automated annotation of genome using Prokka](/seq-analysis/prokka)
-- Exercise: Compare Prokka output with manual annotation
+- Exercise: [Automated annotation of genome using Prokka](/seq-analysis/prokka) and compare Prokka output with manual annotation
 
 ##### 16.00. Progress review on problem-based-learning (Alikhan, Pallen)
