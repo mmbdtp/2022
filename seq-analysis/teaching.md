@@ -12,7 +12,7 @@ This is how the reads for the *novel pathogen* was produced. Reads were simulate
 The chromosome is *E. coli* VR 50 ([CP011134](https://www.ncbi.nlm.nih.gov/nuccore/CP011134.1)), described here [https://pubmed.ncbi.nlm.nih.gov/25667270/](https://pubmed.ncbi.nlm.nih.gov/25667270/). [Genbank file is here](/seq-analysis/vr50.gbk) if needed.
 
 
-*Reads are available at [https://zenodo.org/record/7245398](https://zenodo.org/record/7245398)*
+*Reads are available at [https://zenodo.org/record/7286288](https://zenodo.org/record/7286288)*
 
 ## Installing software 
 

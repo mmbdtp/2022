@@ -21,7 +21,7 @@ title: Genome annotation
 
 ##### 13.00. Instructions for problem-based learning on genome annotation (Alikhan)
 
-- Exercise: Automated annotation of genome using Prokka
+- Exercise: [Automated annotation of genome using Prokka](/seq-analysis/prokka)
 - Exercise: Compare Prokka output with manual annotation
 
 ##### 16.00. Progress review on problem-based-learning (Alikhan, Pallen)

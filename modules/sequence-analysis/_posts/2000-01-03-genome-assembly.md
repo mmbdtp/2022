@@ -23,7 +23,7 @@ title: Genome assembly
 ##### 13.00. Instructions for problem-based learning on assembly QC (Alikhan)
 
 - Exercise: [perform QC and compare hybrid and short-read-only assemblies](/seq-analysis/assembly_qc) (using QUAST, webBlast a contig, Kraken, assembly graph with bandage etc.)
-- Additional exercise: Assess the Quality of some other (provided) assembled genomes. Dataset will include assembled contigs of different strains that fail QC for one reason or another.
+- Additional exercise: [Assess the Quality of some other (provided) assembled genomes](/seq-analysis/check_qc). Dataset will include assembled contigs of different strains that fail QC for one reason or another.
 
 ##### 16.00. Progress review on problem-based-learning (Alikhan)
 

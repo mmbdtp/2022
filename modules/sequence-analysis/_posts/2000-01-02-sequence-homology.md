@@ -25,7 +25,6 @@ title: Sequence homology and alignment
 
 - Exercise: Simple alignment of sequences (using paper example)
 - Exercise: [Download and access simulated read data.](/seq-analysis/download-simulated-data)
-
-- Exercise: Check environment, software, and tools ready for later exercises
+- Exercise: [Check environment, software, and tools ready for later exercises](/seq-analysis/installing)
 
 ##### 16.00. Progress review on problem-based-learning (Alikhan)

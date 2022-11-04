@@ -113,6 +113,8 @@ Use the search in the top left to look for Unicyler and then fill in the inputs 
 
 ![Unicyler dialog]({{site.baseurl}}/seq-analysis/uni.jpg)
 
+*If you run into an error about no `lr`, make sure that the long read input is set as fastqsanger.gz *
+
 Review the output in the right hand history pane. 
 
 At this stage, you may want to ask about what's different about a hybrid assembly?
