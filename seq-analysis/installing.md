@@ -16,10 +16,10 @@ You should not be using a computer running windows for this course, unless you a
 Andrea has an extended guide here: [https://telatin.github.io/microbiome-bioinformatics/Install-Miniconda/](https://telatin.github.io/microbiome-bioinformatics/Install-Miniconda/). 
 
 
-##### In this week's course, you should use conda or containers (from week one) to manage your software
+###### In this week's course, you should use conda or containers (from week one) to manage your software
 
 
-## Installing software via conda (shovill)
+### Installing software via conda (shovill)
 This an example of how to install `shovill` in it's own environment, which we will need later. 
 
 ```
@@ -39,7 +39,7 @@ conda activate myproject
 conda install blast
 ```
 
-## Installing Artemins, Bandage and Mauve 
+### Installing Artemins, Bandage and Mauve 
 
 Artemis, bandage and mauve are software with a graphical interface you can run on your local computer. Follow the instructions at:
 
@@ -47,7 +47,7 @@ Artemis, bandage and mauve are software with a graphical interface you can run o
 * [https://darlinglab.org/mauve/user-guide/viewer.html](https://darlinglab.org/mauve/user-guide/viewer.html)
 * [https://www.sanger.ac.uk/tool/artemis/](https://www.sanger.ac.uk/tool/artemis/)
 
-## What is mamba?
+### What is mamba?
 
 If you use conda, you should use `mamba`. What is `mamba` then? The website describes it as:
 

@@ -3,7 +3,7 @@ layout: page
 ---
 
 # Hybrid and short-read-only assembly of simulated reads
-Let’s talk about the impact of read length (long read vs short read) on genome assembly. 
+Let’s look at the impact of read length (long read vs short read) on genome assembly. 
 In doing so I will also show you how to run the software and assess the output.
 
 ### Short read assembly with Shovill
