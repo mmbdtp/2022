@@ -13,6 +13,9 @@ Conda is an open source package management system and environment management sys
 
 You should not be using a computer running windows for this course, unless you are using windows just to terminal into a system with MacOSX or Linux. 
 
+Andrea has an extended guide here: [https://telatin.github.io/microbiome-bioinformatics/Install-Miniconda/](https://telatin.github.io/microbiome-bioinformatics/Install-Miniconda/). 
+
+
 ##### In this week's course, you should use conda or containers (from week one) to manage your software
 
 
@@ -94,3 +97,42 @@ For Processing large datasets
 
 * Use workflow languages (nextflow)
 * [Bactopia](https://bactopia.github.io/) is a good all-included workflow to start
+
+
+### Some guidance on getting Jupyter notebooks up and running
+This is more for future reference, and is not covered in this course. 
+
+Installing and controlling R and jupyter notebooks through conda is a much easier than installing it natively. I give a full explanation at the end as to why I do this way, but here's the method to start with.
+
+You can naturally change the name of the conda env (I used mapdemo here) to anything you like. I use mamba here to speed up the install process. I highly recommend mamba! I explain mamba in more detail here.
+
+The first mamba install line is to install jupyter notebook, the second is for R, the R kernel for jupyter and common R packages dplyr and ggplot. The third mamba install line is for more specific R packages I want to use.
+
+```
+conda create -n mapdemo mamba
+conda activate mapdemo
+mamba install -y -c conda-forge pip notebook  nb_conda_kernels  jupyter_contrib_nbextensions
+mamba install -y -c conda-forge r r-irkernel r-ggplot2 r-dplyr
+mamba install -y -c conda-forge r-sf  r-ggrepel  r-cowplot r-maps
+```
+
+#### Starting the notebook
+Once these are all installed you can start the jupyter notebook from a diretory of your choosing. Here I just make a demo directory
+
+```
+mkdir demo
+jupyter notebook
+```
+
+You will then see the jupyter service start up and it will tell you where you can access it i.e. `http://localhost:8888/`
+
+```
+(mapdemo) ubuntu@chomp:~/code/demo$ jupyter notebook
+[I 10:36:03.954 NotebookApp] [nb_conda_kernels] enabled, 8 kernels found
+[I 10:36:04.186 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 10:36:04.188 NotebookApp] Serving notebooks from local directory: /home/ubuntu/code/demo
+[I 10:36:04.188 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 10:36:04.188 NotebookApp] http://localhost:8888/
+[I 10:36:04.188 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+```
+
