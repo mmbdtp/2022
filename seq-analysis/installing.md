@@ -102,11 +102,11 @@ For Processing large datasets
 ### Some guidance on getting Jupyter notebooks up and running
 *This is for future reference, and is not covered in this course.* 
 
-Installing and controlling R and jupyter notebooks through conda is a much easier than installing it natively. I give a full explanation at the end as to why I do this way, but here's the method to start with.
+You can Install and control R and jupyter notebooks through `conda`.
 
-You can naturally change the name of the conda env (I used mapdemo here) to anything you like. I use mamba here to speed up the install process. I highly recommend mamba! I explain mamba in more detail here.
+You can naturally change the name of the `conda env` (I used mapdemo here) to anything you like. I use mamba here to speed up the install process. I highly recommend mamba! I explain mamba in more detail here.
 
-The first mamba install line is to install jupyter notebook, the second is for R, the R kernel for jupyter and common R packages dplyr and ggplot. The third mamba install line is for more specific R packages I want to use.
+The first mamba install line is to install `jupyter` notebook, the second is for `R`, the `R` kernel for `jupyter` and common `R` packages `dplyr` and `ggplot`. The third `mamba` install line is for more specific `R` packages I want to use.
 
 ```
 conda create -n mapdemo mamba
@@ -117,14 +117,14 @@ mamba install -y -c conda-forge r-sf  r-ggrepel  r-cowplot r-maps
 ```
 
 #### Starting the notebook
-Once these are all installed you can start the jupyter notebook from a diretory of your choosing. Here I just make a demo directory
+Once these are all installed you can start the `jupyter` notebook from a diretory of your choosing. Here I just make a demo directory
 
 ```
 mkdir demo
 jupyter notebook
 ```
 
-You will then see the jupyter service start up and it will tell you where you can access it i.e. `http://localhost:8888/`
+You will then see the `jupyter` service start up and it will tell you where you can access it i.e. `http://localhost:8888/`
 
 ```
 (mapdemo) ubuntu@chomp:~/code/demo$ jupyter notebook
