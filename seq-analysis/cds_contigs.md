@@ -22,6 +22,8 @@ Thus, we know that the genes will appear between termination codons. But does th
 
 This simple methods of scanning for ORFS in a genome sequence is more complicated for eukaryotic DNA, where genes are often split by introns.  
 
+![Artemis with one tracks]({{site.baseurl}}/seq-analysis/artemis.png)
+
 Some tips for using Artemis:
 * There is a graph of GC% under the `Graph` menu
 * There is an option (`Right click`) in `Artemis` to show potential start codons as well. 

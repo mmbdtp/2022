@@ -22,7 +22,7 @@ art my_assembly.fasta
 
 You should try the smaller sequence from your assembly first. 
 
-![Artemis with two tracks]({{site.baseurl}}/seq-analysis/artemis.png)
+![Artemis with one tracks]({{site.baseurl}}/seq-analysis/artemis.png)
 
 By default you will see 6 tracks. One for each frame (3 forward, 3 reverse). The black ticks are termination codons. A close up of the seqeunce is shown in the bottom panel. 
 
