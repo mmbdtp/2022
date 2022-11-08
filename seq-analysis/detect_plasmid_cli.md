@@ -42,3 +42,7 @@ Found 1 genes in oh/assembly.fasta
 oh/assembly.fasta	2	8821	8951	ColRNAI_1	1-130/130	========/======	1/1	100.00	87.02	plasmidfinder	DQ298019	ColRNAI_1__DQ298019
 ```
 
+You can also try other tools such as: 
+
+* [MOB-Suite](https://github.com/phac-nml/mob-suite).
+
