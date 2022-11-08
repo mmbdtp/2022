@@ -10,6 +10,8 @@ title: Pathogen genomics
 
 ##### 09.15. Talk (Pallen):  *Breaking paradigms: the German STEC outbreak*
 
+- [Link to Powerpoint slides](/seq-analysis/Week 3_Talk_Breaking paradigms_the_German_STEC_outbreak.pptx)
+
 ##### 10.00. Instructions for PBL on virulence factor detection (Alikhan, Pallen)
 
 - Exercise: [Detecting virulence factors](/seq-analysis/detect_vir) in our genome, using web tools (including resfinder etc).
