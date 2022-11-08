@@ -10,6 +10,10 @@ If you had a problem with generating an assembly. Here are some results I prepar
 
 * [long_assembly.fasta](/seq-analysis/long_assembly.fasta)
 
+I have provided another plasmid genome, which is totally unrelated to our data. You can run this too to see how results can differ with the various tools:
+
+* [some_plasmid.fasta](/seq-analysis/some_plasmid.fasta)
+
 Try using `abricate` on the command line with the different databases
 
 ```
