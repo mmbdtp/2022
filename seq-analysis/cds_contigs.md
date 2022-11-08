@@ -2,9 +2,9 @@
 layout: page
 ---
 
-# CDS prediction for a pathogenicity island and a plasmid from contigs of our simulated data
+# CDS prediction for genome contigs
 
-You should use the assembled contigs we generated earlier, particularly the one generated with Unicycler
+You should use the assembled contigs we generated earlier, particularly the one generated with Unicycler.
 
 If you had a problem with generating an assembly with Unicycler. Here are some results I prepared earlier. 
 
@@ -12,7 +12,12 @@ If you had a problem with generating an assembly with Unicycler. Here are some r
 * [long_assembly.gfa](/seq-analysis/long_assembly.gfa)
 * [unicycler.log](/seq-analysis/unicycler.log)
 
-##### Exercise: Open the shorter sequence in Artemis and spend some time marking genes you think are valid. 
+If you have having difficulty with the amount of sequence information, try the next few exercises with this short sequence "small_contigs.fasta!. If you feel more confident you may try the "mystery pathogenicity island" - both of these are taken from the long read assembly above. 
+
+* [small_contig.fasta](/seq-analysis/small_contigs.fasta]
+* [mystery_island.fasta](/seq-analysis/mystery_island.fasta]
+
+##### Exercise: Open the a sequence in Artemis and spend some time marking genes you think are valid. 
 
 Let's try annotating some coding sequences (CDS). Genes that code for proteins comprise open reading frames (ORFs) consisting of a series of codons that specify the amino acid sequence of the protein that the gene encodes. The ORF begins with an initiation codon - usually (but not always) ATG - and ends with a termination codon: TAA, TAG or TGA. Searching a DNA sequence for ORFs that begin with an ATG and end with a termination triplet is therefore one way of looking for genes. The analysis is complicated by the fact that each DNA sequence has six reading frames, three in one direction and three in the reverse direction on the complementary strain. 
 
@@ -41,4 +46,5 @@ Try doing a few by hand, but there are automated tools that will predict CDS. On
 * [GLIMMER](http://ccb.jhu.edu/software/glimmer/index.shtml)
 * [GeneMark](http://exon.gatech.edu/GeneMark/)
 * [Prodigal](https://github.com/hyattpd/Prodigal) (my favourite)
+
 
