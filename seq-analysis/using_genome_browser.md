@@ -14,8 +14,8 @@ If you had a problem with generating an assembly with Unicycler. Here are some r
 
 If you have having difficulty with the amount of sequence information, try the next few exercises with this short sequence "small_contigs.fasta!. If you feel more confident you may try the "mystery pathogenicity island" - both of these are taken from the long read assembly above. 
 
-* [small_contig.fasta](/seq-analysis/small_contigs.fasta]
-* [mystery_island.fasta](/seq-analysis/mystery_island.fasta]
+* [small_contig.fasta](/seq-analysis/small_contigs.fasta)
+* [mystery_island.fasta](/seq-analysis/mystery_island.fasta)
 
 There a number of genome browsers available, we will use [Artemis](https://www.sanger.ac.uk/tool/artemis/). 
 For ease of use, you can split the assembly FASTA file (Use the hybrid assembly for this) into seperate files. The FASTA file may look like this:

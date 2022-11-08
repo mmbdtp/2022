@@ -12,8 +12,8 @@ If you had a problem with generating an assembly with Unicycler. Here are some r
 
 If you have having difficulty with the amount of sequence information, try the next few exercises with this short sequence "small_contigs.fasta". If you feel more confident you may try the mystery pathogenicity island, "mystery_island.fasta" - both of these are taken from the long read assembly above. 
 
-* [small_contig.fasta](/seq-analysis/small_contigs.fasta]
-* [mystery_island.fasta](/seq-analysis/mystery_island.fasta]
+* [small_contig.fasta](/seq-analysis/small_contigs.fasta)
+* [mystery_island.fasta](/seq-analysis/mystery_island.fasta)
 
 Using a combination different tools, try to assign a function to the genes you have predicted. What can you say about the genome regions?
 
