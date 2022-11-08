@@ -3,17 +3,25 @@ layout: page
 ---
 
 # Detecting plasmids and prophages
-There are a number of tools for detecting plasmids and prophage. Some of these are on galaxy. 
+There are a number of tools for detecting plasmids and prophage. Some of these are on galaxy. You can apply these tools to your assembled genome.
+
+If you had a problem with generating an assembly. Here are some results I prepared earlier. 
+
+* [long_assembly.fasta](/seq-analysis/long_assembly.fasta)
+
+I have provided another plasmid genome, which is totally unrelated to our data. You can run this too to see how results can differ with the various tools:
+
+* [some_plasmid.fasta](/seq-analysis/some_plasmid.fasta)
 
 ### Plasmid detection 
 
 * [MOB-Suite](https://github.com/phac-nml/mob-suite). Try this one.
-* [Plasmidfinder - web version](https://cge.food.dtu.dk/services/PlasmidFinder/). Try this one.
+* [Plasmidfinder](https://cge.food.dtu.dk/services/PlasmidFinder/) - Web tool. Try this one.
 * [Abricate](https://github.com/tseemann/abricate) (plasmidfinder). Try this one.
-* ARIBA (plasmidfinder)
-* PLACNET
-* COPLA
-* PlasFlow
+* [ARIBA](https://github.com/sanger-pathogens/ariba) (plasmidfinder)
+* [PLACNET](https://castillo.dicom.unican.es/upload/) - Web tool. Try this one.
+* [COPLA](https://castillo.dicom.unican.es/copla_guide/) - Web tool. Try this one.
+* [PlasFlow](https://github.com/smaegol/PlasFlow)
 
 ### Phages
 
