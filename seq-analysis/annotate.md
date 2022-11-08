@@ -19,8 +19,8 @@ Using a combination different tools, try to assign a function to the genes you h
 
 There are web-based tools for you to use such as: 
 
-* Web BLAST - https://blast.ncbi.nlm.nih.gov/Blast.cgi 
-* https://www.ebi.ac.uk/Tools/hmmer/
-* https://www.ebi.ac.uk/interpro/result/InterProScan/#table
+* Web BLAST - [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+* [https://www.ebi.ac.uk/Tools/hmmer/](https://www.ebi.ac.uk/Tools/hmmer/)
+* [https://www.ebi.ac.uk/interpro/result/InterProScan/#table](https://www.ebi.ac.uk/interpro/result/InterProScan/#table)
 
 Try to save your findings in `Artemis` by editing the different features. You may want to use fields like `/note`, `/gene`, or `/product`. 
