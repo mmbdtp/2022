@@ -20,7 +20,7 @@ title: Pathogen genomics
 ##### 13.00. Instructions for PBL on mobile genetic elements (Alikhan, Pallen)
 
 - Exercise: [Detecting plasmids and prophages](/seq-analysis/detect_plasmid) in our genome using web-based tools
-- Additional [Exercise: Detecting plasmids and prophages](/seq-analysis/detect_plasmid_cli) in our genome using command line tools.
+- Additional [Exercise: Detecting plasmids](/seq-analysis/detect_plasmid_cli) in our genome using command line tools.
 
 ##### 14.00. Progress review on problem-based-learning (Alikhan, Pallen)
 
