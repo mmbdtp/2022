@@ -13,6 +13,8 @@ Mark Pallen and Andrea Telatin
 * 10/11/22 – Room **UG55 A**: *Bioinformatics file Formats*
 * 11/11/22 – Room **UG55 B**: *Problem based learning*
 
+See [the hands-out](https://telatin.github.io/microbiome-bioinformatics/Bash-course/) for more details.
+
 ## Goals
 
 * Learn the basics of the Linux operating system
