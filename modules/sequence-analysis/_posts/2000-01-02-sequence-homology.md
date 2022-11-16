@@ -10,6 +10,8 @@ title: Sequence homology and alignment
 
 ##### 09.15. Talk (Pallen):  *Sequence Homology: Theory and Practice*
 
+- [Link to Powerpoint slides](/seq-analysis/Sequence homology_Nov16_1514.pptx)
+
 ##### 10.00. Instructions for problem-based learning on homology searches (Alikhan, Pallen)
 
 - Exercise: Performance and interpretation of homology searches using NCBI Web BLAST, CDD on illustrative sequences:
