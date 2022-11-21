@@ -25,7 +25,6 @@ title: Sequence homology and alignment
 
 ##### 13.00. Instructions for problem-based learning on alignment (Alikhan)
 
-- Exercise: Simple alignment of sequences (using paper example)
 - Exercise: [Download and access simulated read data.](/seq-analysis/download-simulated-data)
 - Exercise: [Check environment, software, and tools ready for later exercises](/seq-analysis/installing)
 - Additional Exercise: [If you're unsure how a computer works, please review Crash Course Computer Science episodes 1 - 20](https://www.youtube.com/watch?v=O5nskjZ_GoI&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=2)
