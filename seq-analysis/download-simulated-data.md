@@ -17,7 +17,7 @@ wget https://zenodo.org/record/7286288/files/novel-pathogen_R2.fastq.gz
 The files are compressed (.gz) FASTQ files. There are three files: 
 
 * Short read R1 - [novel-pathogen_R1.fastq.gz](https://zenodo.org/record/7286288/files/novel-pathogen_R1.fastq.gz)
-* Short read R2 - [novel-pathogen_R2.fastq.gz](https://zenodo.org/record/7286288/7286288/novel-pathogen_R2.fastq.gz) 
+* Short read R2 - [novel-pathogen_R2.fastq.gz](https://zenodo.org/record/7286288/files/novel-pathogen_R2.fastq.gz) 
 * Long reads - [novel-pathogen-long-reads.fastq.gz](https://zenodo.org/record/7286288/files/novel-pathogen-long-reads.fastq.gz)
 
 
