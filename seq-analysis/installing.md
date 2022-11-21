@@ -35,7 +35,7 @@ mamba create -n week4 -c bioconda -c conda-forge prokka socru breseq refseq_mash
 
 
 ### Installing software via conda (shovill)
-This an example of how to install `shovill` in it's own environment, which we will need later. 
+This an example of how to install `shovill` in it's own environment. This is an example if you are not clear on the syntax. If the tools above are working, you should be fine for further exercises. 
 
 ```
 conda create -n shovill shovill 
@@ -54,7 +54,7 @@ conda activate myproject
 conda install blast
 ```
 
-### Installing Artemins, Bandage and Mauve 
+### Installing Artemis, Bandage and Mauve 
 
 Artemis, bandage and mauve are software with a graphical interface you can run on your local computer. Follow the instructions at:
 
