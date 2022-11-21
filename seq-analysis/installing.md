@@ -32,6 +32,15 @@ Week four will also need certain software, please install these packages for wee
 ```
 mamba create -n week4 -c bioconda -c conda-forge prokka socru breseq refseq_masher mlst snippy sistr_cmd
 ```
+### Installing Artemis, Bandage and Mauve 
+
+Artemis, bandage and mauve are software with a graphical interface you can run on your local computer. Follow the instructions at:
+
+* [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/)
+* [https://darlinglab.org/mauve/user-guide/viewer.html](https://darlinglab.org/mauve/user-guide/viewer.html)
+* [https://www.sanger.ac.uk/tool/artemis/](https://www.sanger.ac.uk/tool/artemis/)
+
+###### The following are tips and examples to help you complete the tasks above 
 
 
 ### Installing software via conda (shovill)
@@ -54,13 +63,7 @@ conda activate myproject
 conda install blast
 ```
 
-### Installing Artemis, Bandage and Mauve 
 
-Artemis, bandage and mauve are software with a graphical interface you can run on your local computer. Follow the instructions at:
-
-* [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/)
-* [https://darlinglab.org/mauve/user-guide/viewer.html](https://darlinglab.org/mauve/user-guide/viewer.html)
-* [https://www.sanger.ac.uk/tool/artemis/](https://www.sanger.ac.uk/tool/artemis/)
 
 ### What is mamba?
 
