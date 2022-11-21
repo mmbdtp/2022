@@ -30,4 +30,3 @@ It was originally developed at the Wellcome Trust Sanger Institute to bundle a F
 ### What is Gzip 
 
 A GZ file is an archive file compressed by the standard GNU zip (gzip) compression algorithm. It typically contains a single compressed file but may also store multiple compressed files. gzip is primarily used on Unix operating systems for file compression.
-

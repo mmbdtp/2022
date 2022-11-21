@@ -18,6 +18,13 @@ Andrea has an extended guide here: [https://telatin.github.io/microbiome-bioinfo
 
 ###### In this week's course, you should use conda or containers (from week one) to manage your software
 
+### Install the software for week4 
+Week four will also need certain software, please install these packages for week for via conda/mamba. 
+
+```
+mamba create -n week4 -c bioconda -c conda-forge prokka socru breseq refseq_masher mlst snippy sistr_cmd
+```
+
 
 ### Installing software via conda (shovill)
 This an example of how to install `shovill` in it's own environment, which we will need later. 
