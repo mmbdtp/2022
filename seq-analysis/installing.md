@@ -34,7 +34,7 @@ mamba create -n week4 -c bioconda -c conda-forge prokka socru breseq refseq_mash
 ```
 ### Installing Artemis, Bandage and Mauve 
 
-Artemis, bandage and mauve are software with a graphical interface you can run on your local computer. Follow the instructions at:
+Artemis, bandage and mauve are software with a graphical interface you **should run on your local computer**. Follow the instructions at:
 
 * [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/)
 * [https://darlinglab.org/mauve/user-guide/viewer.html](https://darlinglab.org/mauve/user-guide/viewer.html)
