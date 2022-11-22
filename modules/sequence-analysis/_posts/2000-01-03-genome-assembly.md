@@ -11,6 +11,7 @@ title: Genome assembly
 ##### 09.15. Talk (Pallen):  *Microbial Genomics: Theory and Practice*
 
 - [Link to Powerpoint slides](/seq-analysis/Week_3_Talk_Microbial_genomics.pptx)
+- [Link to video of the talk](https://youtu.be/R7qbVx3Fu0A)
 
 ##### 10.00. Instructions for problem-based learning on genome assembly (Alikhan)
 

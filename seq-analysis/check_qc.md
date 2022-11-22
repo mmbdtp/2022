@@ -6,12 +6,12 @@ layout: page
 
 The exercise is to download some assembled draft genomes and assess if they pass routine quality control. 
 
-*The genomes are available at [https://zenodo.org/record/7286288](https://zenodo.org/record/7286288)*
+*The genomes are available at [https://zenodo.org/record/7344094](https://zenodo.org/record/7286288)*
 
 You can directly download them with wget or similar. 
 
 ```
-wget https://zenodo.org/record/7286288/files/additional_genomes_for_qc.zip
+wget https://zenodo.org/record/7344094/files/additional_genomes_for_qc.zip
 ```
 
 The files are FASTA (they are plain text) inside the zip file. There are eight genomes.
