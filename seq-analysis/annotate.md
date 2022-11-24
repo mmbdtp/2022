@@ -21,6 +21,6 @@ There are web-based tools for you to use such as:
 
 * Web BLAST - [https://blast.ncbi.nlm.nih.gov/Blast.cgi](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 * [https://www.ebi.ac.uk/Tools/hmmer/](https://www.ebi.ac.uk/Tools/hmmer/)
-* [https://mmbdtp.github.io/seq-analysis/annotate/](https://mmbdtp.github.io/seq-analysis/annotate/)
+* [InterPro- https://www.ebi.ac.uk/interpro/](https://www.ebi.ac.uk/interpro/)
 
 Try to save your findings in `Artemis` by editing the different features. You may want to use fields like `/note`, `/gene`, or `/product`. 
