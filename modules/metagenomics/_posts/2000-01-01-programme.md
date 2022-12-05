@@ -21,3 +21,8 @@ Content:
 * Assembly and binning: MAGs
 * Singe-cell genomics 
 * Genome taxonomy
+
+Presentations
+
+* [Mark Pallen, introduction to metagenomics](https://github.com/mmbdtp/mmbdtp.github.io/releases/download/2022-alpha/pallen-intro-metagenomics.pptx)
+* [Chris Quince, introduction to microbiome bioinformatics](https://github.com/mmbdtp/mmbdtp.github.io/releases/download/2022-alpha/quince-intro.pptx)
