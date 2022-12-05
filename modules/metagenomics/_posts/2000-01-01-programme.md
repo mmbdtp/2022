@@ -14,7 +14,17 @@ Schedule:
 * 8/12/22 – UG55 A                           
 * 9/12/22– UG55 B      
                       
-Content: 
+
+Presentations
+
+* [Mark Pallen, introduction to metagenomics](https://github.com/mmbdtp/mmbdtp.github.io/releases/download/2022-alpha/pallen-intro-metagenomics.pptx)
+* [Chris Quince, introduction to microbiome bioinformatics](https://github.com/mmbdtp/mmbdtp.github.io/releases/download/2022-alpha/quince-intro.pptx)
+
+Practicals
+
+* [Link to the programme](https://github.com/Sebastien-Raguideau/MMB_DTP/blob/main/README.md)
+
+Content overview: 
 
 * Microbial ecology
 * Community profiling
