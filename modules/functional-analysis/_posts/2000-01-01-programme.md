@@ -25,4 +25,8 @@ Content:
 * Structural Biology 
 * Metabolomics
 * Image analysis
+
+Slides:
+
+* [Introduction (Mark Webber)](https://github.com/mmbdtp/mmbdtp.github.io/releases/download/2022-alpha/webber_week6_intro.pptx)
  
