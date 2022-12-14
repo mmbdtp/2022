@@ -29,4 +29,5 @@ Content:
 Slides:
 
 * [Introduction (Mark Webber)](https://github.com/mmbdtp/mmbdtp.github.io/releases/download/2022-alpha/webber_week6_intro.pptx)
+* [Tradis workshop](https://github.com/mmbdtp/mmbdtp.github.io/releases/download/2022-alpha/tradis-workshop.pptx)
  
