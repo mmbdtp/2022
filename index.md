@@ -3,6 +3,10 @@ layout: index
 published: true
 ---
 
+```note
+This is an archived website, see [the current year version](https://mmbdtp.github.io/).
+```
+
 A problem-based learning curriculum for the **Microbes, Microbiomes and Bioinformatics** doctoral training program
 <br> 
 
