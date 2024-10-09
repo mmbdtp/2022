@@ -6,6 +6,13 @@ title: Monday Morning — Introducing Unix
 
 Credits for today's sessions: material reworked from previous workshops by Andrea Telatin and fresh material from Mark Pallen. ChatGPT used to proofread, expand on points and create images.
 
+|||
+| Learning Objectives | |
+|| Demonstrate the usefulness of the command line |
+|| Learn basic commands for navigation and file manipulation |
+|| Signpost useful resources and topics for learning shell |
+|||
+
 
 ## Be excited! Be very excited! 
 
@@ -21,6 +28,18 @@ If you want to raise questions or share insights, please add text or links to th
 
 Most of the week will be taken up with hands-on sessions, but before you get your hands dirty, let's start with a brief [PowerPoint presentation](https://github.com/mmbdtp/mmbdtp.github.io/raw/gh-pages/githubio/2023_course/week_1/2023_Week1_Command_line_Unix.pptx) to set the scene.
 
+
+---
+
+### Why do we need to use the command line?
+
+|||
+|More tools and functionality||Developing graphical user interfaces is costly and time consuming. Many bioinformatics tools do not have a GUI and those that do often have more functionality when using the command line.|
+|||
+|Scalability, reproducibility and reliability||Sharing a line of code is quicker and less error prone than describing a sequence of mouse clicks. A command can be rapidly ran multiple times and can be inspected for mistakes.|
+|||
+|Accessing larger computing resources||More intensive bioinformatics tasks require more computing resources, many of which can only be accessed via the command line.|
+|||
 
 ---
 
@@ -41,12 +60,14 @@ You should now see a window with a **command-line prompt**.
 
 
 ```
-computername:~ username$
+username@computername ~ %
 
 ```
-The command-line prompt typically displays the name of your computer, the current working directory and your username. It ends with a `$` sign, waiting for you to enter a command. 
+The command-line prompt typically displays the name of your computer, the current working directory and your username. It ends with a `%` sign, waiting for you to enter a command. 
 
-When you first open the `Terminal` app, you are likely to find yourself in your **home directory** associated with your username and account on the MacBook. The tilde sign `~` represents a shortcut designation for that directory within Unix file systems.
+The command line prompt can be customised to say almost anything, this is just the default zsh prompt.
+
+When you first open the Terminal app, you are likely to find yourself in your home directory associated with your username and account on the MacBook.
 
 The terms `Terminal` and `shell` are often used interchangeably, but they refer to different things.
 
@@ -138,13 +159,14 @@ Look at the file `grandeur.txt` on the Finder. Click on it. You will see it is e
 Let's add some text.
 
 ```bash
-$ echo "There is grandeur in this view of life" > grandeur.txt
+Nano grandeur.txt
+
+"There is grandeur in this view of life"
 
 ```
 
-`echo` makes the shell return the text as an output and the `>` redirects that output into the file named `grandeur.txt`. 
+Nano is bash based text editor (there are many available) which allows you to make edits to `grandeur.txt`. 
 
-- See [https://en.wikipedia.org/wiki/Redirection_(computing)](https://en.wikipedia.org/wiki/Redirection_(computing))
 
 Click on the `grandeur.txt` file in the Finder and you can see it now contains the text.
 
@@ -375,7 +397,6 @@ While slurping, ask ChatGPT to give you a joke based on `mkdir`.
 
 ---
 
-
 ## Moving around
 On Unix-like systems, files and directories are managed in a hierarchical structure, where files and directories sit within folders, which in turn can in turn sit within directories higher up in the hierarchy.
 
@@ -444,13 +465,8 @@ Let's clarify these concepts:
 
 Remember that if you don't know where you are, you can always use `pwd` to print the current directory (its output is an absolute path).
 
-If we want to go up to the directory above us, we can use this double dot `..` shortcut
 
-
-```bash
-$ cd ..
-
-```
+:question: **TASK:** How can you move to the parent directory of your current folder? 
 
 Type that command now.
 
@@ -469,9 +485,7 @@ As noted, the tilde character `~` is a shortcut for the home directory of the cu
 
 ```bash
 $ cd ~
-
-``` 
-
+```
 
 ---
 
@@ -520,9 +534,28 @@ $ clear
 
 ```
 
+## Finding help when using a command
+
+Many core bash commands have an entry in the manual that gives a detailed description of the command and its optional flags.
+
+To view the manual entry for a function type:
+
+```bash
+man ls
+```
+
+Not all commands will have a manual entry, but every command should return some description of its use if you pass the help flag to the command.
+
+```bash
+ls -h
+ls --help
+``` 
+
+Never be embarrassed to just type the command into google and see what people say on sites like Stack Overflow. We do it all the time!
+
+:question: **TASK:** How do you list additional information about files in a folder such as the owner, the number of bytes in the file and when file was last modified?
 
 ---
-
 
 ### Time for lunch
 
